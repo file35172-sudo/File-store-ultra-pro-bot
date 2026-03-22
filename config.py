@@ -7,17 +7,17 @@ load_dotenv()
 # 🔹 TELEGRAM BOT CONFIGURATION
 # ==========================================================
 
-API_ID = int(os.getenv("API_ID", 123456789))
-API_HASH = os.getenv("API_HASH", "abc123..")
+API_ID = int(os.getenv("API_ID", 29109000))
+API_HASH = os.getenv("API_HASH", "81018d37cec2565db4785001413ea299")
 BOT_TOKEN = os.getenv("BOT_TOKEN" "12345678:...")
-OWNER_ID = int(os.getenv("OWNER_ID", 81272693))
+OWNER_ID = int(os.getenv("OWNER_ID", 1900256573))
 
 
 # ==========================================================
 # 🔹 DATABASE CONFIGURATION
 # ==========================================================
 
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://Bosshub:")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://filestorebot464_db_user:12435678@cluster0.q1mm6rf.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "file_store_bot")
 
 
@@ -69,7 +69,7 @@ ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "H44PBHTWWP4LS0N5")
 # 🔹 LOGGING CONFIGURATION
 # ==========================================================
 
-LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", -1003559364122))
+LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", -1003834742484))
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 
 
