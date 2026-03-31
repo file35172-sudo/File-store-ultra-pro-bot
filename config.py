@@ -17,8 +17,7 @@ OWNER_ID = int(os.getenv("OWNER_ID", 1900256573))
 # 🔹 DATABASE CONFIGURATION
 # ==========================================================
 
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://marathisfilterbot_db_user:anshul123@cluster0.lrayhpv.mongodb.net/?appName=Cluster0"
-")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://marathisfilterbot_db_user:anshul123@cluster0.lrayhpv.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "file_store_bot")
 
 
